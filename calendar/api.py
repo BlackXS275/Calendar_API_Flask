@@ -7,6 +7,7 @@ import logic
 
 _event_logic = logic.EventLogic()
 
+
 class ApiException(Exception):
     pass
 

@@ -36,7 +36,6 @@ class EventLogic:
     def __init__(self):
         self._event_db = db.EventDB()
 
-
     @staticmethod
     def _validate_note(event: model.Event):
         if event is None:
@@ -49,8 +48,6 @@ class EventLogic:
             raise LogicException(f"Invalid date format. Use YYYY-MM-DD")
         if event.date in return_dates():
             raise LogicException(f"You cannot add more than one event to the date")
-
-
 
     def create(self, event: model.Event) -> str:
         self._validate_note(event)

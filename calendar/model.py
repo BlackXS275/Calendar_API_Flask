@@ -1,4 +1,4 @@
-class Event():
+class Event:
     id: str
     date: str
     title: str
