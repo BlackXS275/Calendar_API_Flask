@@ -16,5 +16,4 @@
 Клонируйте репозиторий:
 git clone git@github.com:BlackXS275/Calendar_API_Flask.git
 
-Измените свою текущую рабочую дерикторию:
-cd /Calendar_API_Flask/
+
