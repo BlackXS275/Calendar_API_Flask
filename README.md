@@ -35,16 +35,16 @@
 
 
 Для создания события:
-- 'POST' localhost:5000/api/v1/calendar/
+- 'POST' /api/v1/calendar/
 
 Для просмотра созданных событий: 
-- 'GET' localhost:5000/api/v1/calendar/
+- 'GET' /api/v1/calendar/
 
 Для просмотра конретного созданного события: 
-- 'GET' localhost:5000/api/v1/calendar/(id)/
+- 'GET' /api/v1/calendar/(id)/
 
 Для изменения события: 
-- 'PUT' localhost:5000/api/v1/calendar/(id)/
+- 'PUT' /api/v1/calendar/(id)/
 
 Для удаления события: 
-- 'DELETE' localhost:5000/api/v1/calendar/(id)/
+- 'DELETE' /api/v1/calendar/(id)/
