@@ -11,6 +11,7 @@
 - нельзя добавить больше одного события в день
 - формат данных: "ГГГГ-ММ-ДД|заголовок|текст"
 
+
 Как запустить проект:
 
 Клонируйте репозиторий:
@@ -22,3 +23,27 @@
 
 Обновите pip:
 - python3 -m pip install --upgrade pip
+
+Установите зависимости из requirements.txt:
+- pip install -r requirements.txt
+
+Запустите сервер:
+- python server.py
+
+
+Пример работы API
+
+Для создания события 
+- 'POST' localhost:5000/api/v1/calendar/
+
+Для просмотра созданных событий 
+- 'GET' localhost:5000/api/v1/calendar/
+
+Для просмотра конретного созданного события 
+- 'GET' localhost:5000/api/v1/calendar/(id)/
+
+Для изменения события 
+- 'PUT' localhost:5000/api/v1/calendar/(id)/
+
+Для удаления события 
+- 'DELETE' localhost:5000/api/v1/calendar/(id)/
