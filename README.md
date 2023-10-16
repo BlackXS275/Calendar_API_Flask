@@ -14,11 +14,11 @@
 Как запустить проект:
 
 Клонируйте репозиторий:
-git clone git@github.com:BlackXS275/Calendar_API_Flask.git
+- git clone git@github.com:BlackXS275/Calendar_API_Flask.git
 
 Создайте и активируйте виртуальное окружение:
-python -3.12 -m venv venv
-source venv/scripts/activate
+- python -3.12 -m venv venv
+- source venv/scripts/activate
 
 Обновите pip:
-python3 -m pip install --upgrade pip
+- python3 -m pip install --upgrade pip
